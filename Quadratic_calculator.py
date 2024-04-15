@@ -13,7 +13,7 @@ ans = (-B - np.sqrt(B ** 2 - 4 * A * C)) / (2 * A)
 ans2 = (-B + np.sqrt(B ** 2 - 4 * A * C)) / (2 * A)
 print(f'{ans:.3f}')
 print(f'{ans2:.3f}')
-#Tells that us if there are complex solutions
+#Tells us if there are complex solutions
 if k < 0:
     print('No real solutions')
 #Range for which the Quadratic function is graphed
@@ -25,7 +25,7 @@ if a > 0:
     print('Minimum')
 else:
     print('Maximum')
-# Calculates the vertex x coordinate
+# Calculates the vertex 'x' coordinate.
 V = -B / (2 * A)
 #Calculates the y coordinate of the vertex using the quadratic equation and the x coordinate.
 D = A * V ** 2 + B * V + C
